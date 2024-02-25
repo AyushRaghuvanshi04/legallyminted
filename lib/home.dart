@@ -14,7 +14,7 @@ class _HomeState extends State<Home> {
   ];
   final TextEditingController _textController = TextEditingController();
   final OpenAI _openAI = OpenAI.instance.build(
-      token: "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",
+      token: "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",
       baseOption: HttpSetup(receiveTimeout: const Duration(seconds: 10)),
       enableLog: true);
 
